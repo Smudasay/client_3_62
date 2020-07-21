@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    .logo{
+        margin-left: 13%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        img {
+
+            height: 180px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+    .right_logo{
+        display: flex;
+        margin: 20px;
+        div{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    .fb {
+        color: #33CCCC;
+      }
+      
+      .fb:hover {
+          color: blue;
+      }
+      
+      .ig {
+        color: #33CCCC;
+      }
+      
+      .ig:hover {
+        color: #CC3300;
+      }
+      
+      .gh {
+          color: #33CCCC;
+      }
+      
+      .gh:hover {
+          color: rgb(23, 23, 39);
+      }
+      
+}
+.navbar{
+    display: flex;
+    background-color: #e5f1f4;
+    justify-content: center;
+    padding: 10px 0px;
+        .menu{
+            color: black;
+            padding: 10px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .active{
+            color: blue;
+            border-bottom: 2px solid;
+        }
+     
+       
+}
+
+.select-in {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
